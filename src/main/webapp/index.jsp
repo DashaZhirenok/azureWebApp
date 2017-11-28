@@ -63,8 +63,9 @@
 	<form class="registrationText">
 	 <h1>Check in</h1>
 	</form>
-	<form class="wrap" action="https://webapp-171128183937.azurewebsites.net/test" method="post">
+	<form class="wrap">
 		<input name="number" type="text" placeholder="Enter ticket number"><br>
+		<input name="surname" type="text" placeholder="Enter last name"><br>
 		<input type="submit" value="Continue">
 	</form>
 </body>
