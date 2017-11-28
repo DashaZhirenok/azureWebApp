@@ -65,7 +65,6 @@
 	</form>
 	<form class="wrap" action="https://webapp-171128183937.azurewebsites.net/test" method="post">
 		<input name="number" type="text" placeholder="Enter ticket number"><br>
-		<input name="surname" type="text" placeholder="Enter last"><br>
 		<input type="submit" value="Continue">
 	</form>
 </body>
