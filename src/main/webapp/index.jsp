@@ -33,7 +33,7 @@
 			background: #42A5F5;
 			outline: #673AB7;
 			height: 24px;
-			width: 300px;
+			width: 500px;
 			padding: 5px;
 			color: #1A237E;
 			font-size: 20px;
@@ -63,10 +63,13 @@
 	<form class="registrationText">
 	 <h1>Check in</h1>
 	</form>
-	<form class="wrap">
-		<input name="number" type="text" placeholder="Enter ticket number"><br>
-		<input name="surname" type="text" placeholder="Enter last name"><br>
+	<form class="wrap" action="https://webapp-171128183937.azurewebsites.net/test" method="post">
+		<input name="encodingWord" type="text" placeholder="Enter word for encoding/decoding"><br>
 		<input type="submit" value="Continue">
 	</form>
+	<form class="wrap" action="https://webapp-171128183937.azurewebsites.net/test2" method="post">
+        <input name="word" type="text" placeholder="Enter word if you want to count symbols in this line"><br>
+        <input type="submit" value="Continue">
+    </form>
 </body>
 </html>
